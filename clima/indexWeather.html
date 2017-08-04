@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Reporte del Clima</title>
+<script type="text/javascript" src="leer.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Activeit</span>
+			<span class="site-desc">Diseño web </span>
+		</a> <!-- / #logo-header -->
+ 
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav><!-- / nav -->
+ 
+	</header><!-- / #main-header -->
+ 
+	
+	<section id="main-content">
+	
+		<article>
+			<header>
+				<h1>El clima</h1>
+			</header>
+			
+			
+			
+			<div class="content">
+				
+				Seleccionar Ciudad<br>
+	
+				<input type="text" name="txtPais"> <button type="button" onclick="prueba()">Enviar</button>
+				<br><br>
+
+				<table>
+					 <tr>
+				    <td><label>Ciudad:</label></td>
+				    <td><label id="city"></label></td>
+				   
+				  </tr>
+				  				 <tr>
+				    <td><label>latitud:</label></td>
+				    <td><label id="lat"></label><br></td>
+				   
+				  </tr>
+				  	 <tr>
+				    <td><label>longuitud:</label></td>
+				    <td><label id="lon"></label><br></td>
+				   
+				  </tr>
+				   <tr>
+				    <td><label>temperatura actual:</label></td>
+				    <td> <label id="temp"></label></td>
+				   
+				  </tr>
+				   <tr>
+				    <td><label>temperatura max:</label></td>
+				    <td><label id="temp_max"></label></td>
+				   
+				  </tr>
+				   <tr>
+				    <td><label>temperatura min:</label></td>
+				    <td><label id="temp_min"></label></td>
+				   
+				  </tr>
+				   <tr>
+				    <td><label>humedad:</label></td>
+				    <td><label id="humidity"></label></td>
+				   
+				  </tr>
+				   <tr>
+				    <td><label>pronostico:</label></td>
+				    <td><label id="main"></label></td>
+				   
+				  </tr>
+				   <tr>
+				    <td><label>descripcion:</label></td>
+				    <td><label id="description"></label></td>
+				   
+				  </tr>
+				    <tr>
+				    <td><label>velocidad del viento:</label></td>
+				    <td><label id="speed"></label></td>
+				   
+				  </tr>
+				   
+				 
+				</table>
+               
+				
+             
+			</div>
+			
+		</article> <!-- /article -->
+	
+	</section> <!-- / #main-content -->
+ 
+	
+	
+	<footer id="main-footer">
+		<p>&copy; 2017 Reporte del clima</p>
+	</footer> <!-- / #main-footer -->
+ 
+	
+</body>
+</html>
